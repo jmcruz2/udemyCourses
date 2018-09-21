@@ -1,0 +1,23 @@
+
+//class selector
+.header {
+    background: $off-black;
+    margin-bottom: $xl-size;
+    padding: $m-size 0;   //upper and down 0 for left and right   
+    color: white; 
+
+}
+
+//class selector  BEM block element modifier
+.header__title {
+    font-size: $l-size;
+    margin: 0;   //all sides
+
+}
+
+.header__subtitle {
+    color: $off-white;
+    font-size: $m-size;
+    font-weight: 500;
+    margin: 0;
+}
